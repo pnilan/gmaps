@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/pnilan/gmaps#readme",
   "dependencies": {
+    "@react-google-maps/api": "^2.19.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
