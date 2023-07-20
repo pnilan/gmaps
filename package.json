@@ -1,0 +1,36 @@
+{
+  "name": "gmaps",
+  "version": "1.0.0",
+  "description": "Trying out the google maps platform API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "npx webpack --mode development",
+    "client": "npx webpack --watch --mode development & npx live-server --open=./client/dist/index.html",
+    "server": "npx live-server --open=./client/dist/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pnilan/gmaps.git"
+  },
+  "author": "Patrick Nilan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pnilan/gmaps/issues"
+  },
+  "homepage": "https://github.com/pnilan/gmaps#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "babel-loader": "^9.1.3",
+    "eslint": "^8.45.0",
+    "live-server": "^1.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
